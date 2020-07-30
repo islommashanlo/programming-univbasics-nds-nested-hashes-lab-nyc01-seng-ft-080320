@@ -32,6 +32,7 @@ end
 
 def aoh_lookup(aoh, row, key)
   requested_value = aoh[row][key]
+  requested_value
 end
 
 def aoh_update(aoh, row, key, new_value)
