@@ -40,4 +40,5 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
     requested_value = aoh[row][key]
     requested_value = new_value
+    aoh
 end
